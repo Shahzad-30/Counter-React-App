@@ -1,17 +1,6 @@
-// import logo from './logo.svg';
-// import './App.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-     
-//     </div>
-//   );
-// }
 
-// export default App;
-
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 const App = () => {
@@ -63,7 +52,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Counter with Undo/Redo and Progress Bar</h1>
+      <h1 style={{color:'yellow'}}>Counter with Undo/Redo and Progress Bar</h1>
       <div className="buttons">
         <button onClick={handleDecrement} disabled={number <= 0}>
           Increment
