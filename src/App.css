@@ -58,7 +58,7 @@
 .progress-container {
   margin-top: 20px;
   width: 100%;
-  background-color: red;
+  background-color: yellow;
   border-radius: 8px;
   overflow: hidden;
 }
